@@ -1,0 +1,93 @@
+{
+    "numberHome": 253,
+    "entranceHome": 1,
+    "cash": 10000000,
+    "card": 10000000,
+    "home": [
+        {
+            "number": 25,
+            "class": "Высокий класс (10)",
+            "storage": 600,
+            "income": 6100000,
+            "cost": 10000000
+        },
+        {
+            "number": 24,
+            "class": "Низкий класс (2)",
+            "storage": 100,
+            "income": 100000,
+            "cost": 1000000
+        },
+        {
+            "number": 20,
+            "class": "Низкий класс (3)",
+            "storage": 200,
+            "income": 150000,
+            "cost": 1500000
+        },
+        {
+            "number": 25,
+            "class": "Высокий класс (10)",
+            "storage": 600,
+            "income": 6100000,
+            "cost": 10000000
+        },
+        {
+            "number": 25,
+            "class": "Высокий класс (10)",
+            "storage": 600,
+            "income": 6100000,
+            "cost": 10000000
+        },
+        {
+            "number": 25,
+            "class": "Высокий класс (10)",
+            "storage": 600,
+            "income": 6100000,
+            "cost": 10000000
+        },
+        {
+            "number": 25,
+            "class": "Высокий класс (10)",
+            "storage": 600,
+            "income": 6100000,
+            "cost": 10000000
+        },
+        {
+            "number": 25,
+            "class": "Высокий класс (10)",
+            "storage": 600,
+            "income": 6100000,
+            "cost": 10000000
+        },
+        {
+            "number": 25,
+            "class": "Высокий класс (10)",
+            "storage": 600,
+            "income": 6100000,
+            "cost": 10000000
+        },
+        {
+            "number": 25,
+            "class": "Высокий класс (10)",
+            "storage": 600,
+            "income": 6100000,
+            "cost": 10000000
+        },
+        {
+            "number": 25,
+            "class": "Высокий класс (10)",
+            "storage": 600,
+            "income": 6100000,
+            "cost": 10000000
+        },
+        {
+            "number": 10,
+            "class": "Средний класс (6)",
+            "storage": 400,
+            "income": 4200000,
+            "cost": 8000000,
+            "src": "/photo.png"
+        }
+    ]
+}

@@ -1,0 +1,272 @@
+@use './utils/functions.scss' as *;
+
+.apps{
+    display: flex;
+    width: vw(614);
+    height: vw(673);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.backpack{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: vw(21);
+    align-self: stretch;
+
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+
+        &__logo{
+            display: flex;
+            align-items: center;
+            gap: vw(14);
+
+            .logotip {
+                display: flex;
+                width: vw(62.394);
+                height: vw(62.394);
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: vw(11.344);
+                background: #2B3038;
+                position: relative;
+                overflow: hidden;
+
+                &_background {
+                    width: vw(62);
+                    position: absolute;
+                    bottom: 0;
+                    background: linear-gradient(115deg, #2496F0 -22.84%, #243FF0 48.86%, #2496F0 117.75%);
+                    box-shadow: 0 vw(7.403) vw(32.149) 0 rgba(36, 53, 240, 0.69);
+                    z-index: 0;
+                }
+
+                img {
+                    width: vw(35);
+                    height: vw(35);
+                    z-index: 1;
+                }
+            }
+
+            .info{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: vw(7.403);
+
+                &__lvl{
+                    display: flex;
+                    align-items: center;
+                    gap: vw(10.575);
+                    align-self: stretch;
+
+                    p{
+                        color: #FFF;
+                        font-family: 'InterBOLD';
+                        font-size: vw(17.978);
+                        text-transform: uppercase;
+                    }
+
+                    div{
+                        display: flex;
+                        padding: vw(5.288);
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5.288px;
+                        background: linear-gradient(115deg, #2496F0 -22.84%, #243FF0 48.86%, #2496F0 117.75%);
+                        box-shadow: 0 vw(7.403) vw(32.149) 0 rgba(36, 53, 240, 0.69);
+                        color: #FFF;
+                        font-family: 'InterBLACK';
+                        font-size: vw(14.805);
+                        text-transform: uppercase;
+                    }
+                }
+
+                &__kg{
+                    display: flex;
+                    align-items: center;
+                    gap: vw(3.173);
+                    font-family: 'InterSBOLD';
+                    font-size: vw(15.863);
+                }
+            }
+        }
+        &__draganddrop{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            gap: vw(10);
+
+            p{
+                color: #FDBE22;
+                text-align: right;
+                font-family: 'InterBOLD';
+                font-size: vw(14);
+            }
+
+            img{
+                width: vw(21);
+                height: vw(21);
+            }
+        }
+    }
+    .slots{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        gap: vw(10);
+        align-self: stretch;
+        flex-wrap: wrap;
+
+        .card{
+            display: flex;
+            width: vw(112.721);
+            height: vw(112.721);
+            padding: vw(13.859);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: vw(13.859);
+            border: vw(4.62) solid rgba(253, 255, 255, 0.01);
+            background: rgba(30, 33, 37, 0.75);
+
+            &__active{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+
+                .title{
+                    color: var(--main-color);
+                    font-family: 'InterBOLD';
+                    font-size: vw(10.163);
+                    text-transform: uppercase;
+                    margin-top: vw(15.86);
+                }
+                .count{
+                    display: flex;
+                    width: vw(31.2394);
+                    height: vw(17.2394);
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: vw(4.62);
+                    background: #16181C;
+                    color: rgba(255, 255, 255, 0.50);
+                    font-family: 'InterBLACK';
+                    font-size: vw(11.087);
+                    text-transform: uppercase;
+                    position: relative;
+                    top: vw(-14.62);
+                    z-index: 1;
+                }
+                .ribbon{
+                    position: absolute;
+                    bottom: vw(9);
+                    right: vw(-21);
+                    width: vw(113);
+                    height: vw(114);
+                }
+            }
+
+            &__image{
+                width: vw(39.7);
+                height: vw(31.5);
+
+                &__active{
+                    width: vw(70);
+                    height: vw(85);
+                    position: relative;
+                    top: vw(-6);
+                    bottom: 0;
+                    z-index: 0;
+                }
+            }
+        }
+    }
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: vw(8);
+        align-self: stretch;
+
+        &__head{
+            display: flex;
+            align-items: center;
+            gap: vw(10);
+
+            div{
+                display: flex;
+                padding: vw(6.034);
+                justify-content: center;
+                align-items: center;
+                gap: vw(12.069);
+                border-radius: vw(7);
+                background: rgba(28, 255, 96, 0.15);
+                color: var(--secondary-color);
+                font-family: 'InterBLACK';
+                font-size: vw(14.483);
+                text-transform: uppercase;
+            }
+
+            p{
+                color: var(--text-white);
+                text-align: right;
+                font-family: 'InterBLACK';
+                font-size: vw(17);
+                text-transform: uppercase;
+            }
+        }
+        &__p{
+            color: var(--secondary-color);
+            text-align: right;
+            font-family: 'InterBLACK';
+            font-size: vw(35);
+            text-transform: uppercase;
+        }
+    }
+
+    &__buttons{
+        display: flex;
+        align-items: flex-start;
+        gap: vw(15);
+
+        &__card{
+            width: vw(24);
+            height: vw(24);
+        }
+        &__cash{
+            width: vw(12);
+            height: vw(21);
+        }
+    }
+
+    &__buttons button{
+        display: flex;
+        width: vw(157);
+        height: vw(47);
+        justify-content: center;
+        align-items: center;
+        gap: vw(10);
+        background: var(--main-color);
+        box-shadow: vw(-7) vw(7) 0 0 rgba(36, 150, 240, 0.24);
+        color: var(--text-white);
+        font-family: 'InterBLACK';
+        font-size: vw(15);
+        text-transform: uppercase;
+    }
+}

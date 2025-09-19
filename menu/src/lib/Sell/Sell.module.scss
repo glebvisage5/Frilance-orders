@@ -1,0 +1,80 @@
+@use '../../global.scss' as global;
+
+
+.backgrounds{
+    width: 69.22vw;
+    height: 41.56vw;
+    border-radius: 0.94vw;
+    background: rgba(24, 24, 23, 0.70);
+    backdrop-filter: blur(0.55vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15vw;
+}
+.sell{
+    width: 26.46vw;
+    height: 13.49vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.78vw;
+    border-radius: 0.78vw;
+    background: #181817;
+}
+.question{
+    width: 16.3vw;
+    color: global.$main-color-txt;
+    font-size: 1.25vw;
+    text-align: center;
+    font-weight: 800;
+    font-family: global.$extrabold;
+    margin-top: -0.2vw;
+}
+.question span{
+    color: global.$main-color;
+}
+.question2{
+    width: 16.56vw;
+    line-height: 145.396%;
+    font-family: global.$regular;
+    text-align: center;
+    font-size: 0.63vw;
+    color: global.$color-txt;
+}
+.btn{
+    width: 20.78vw;
+    height: 2.6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.61vw;
+}
+.btns{
+    width: 9.58vw;
+    height: 2.6vw;
+    border-radius: 0.31vw;
+    font-size: 0.83vw;
+    font-family: global.$extrabold;
+    line-height: 145.396%;
+    color: global.$main-color-txt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns img{
+    width: 1.25vw;
+    height: 1.25vw;
+    margin-right: 0.36vw;
+}
+.back{
+    border: 0.1vw solid global.$main-color;
+    background: none;
+}
+.sell_btn{
+    border: 0.05vw solid global.$main-color;
+    background: global.$main-gradient;
+    box-shadow: global.$main-shadow;
+}

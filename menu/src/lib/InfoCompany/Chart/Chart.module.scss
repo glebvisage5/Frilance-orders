@@ -1,0 +1,28 @@
+@use '../../../global.scss' as global;
+
+.SVG{
+    border-radius: 12px;
+    border: global.$button-off;
+    background: global.$button-off-gradient;
+}
+.arr_text{
+    fill: global.$color-txt;
+    font-size: 0.78vw;
+    line-height: 145.396%;
+    font-family: global.$semibold;
+}
+.gridLine {
+    stroke: white;
+    stroke-width: 0.03vw;
+}
+.chartLine {
+    fill: none;
+    stroke: #DF005B;
+    stroke-width: 0.2vw;
+    box-shadow: drop-shadow(0px 0px 21.8px #DF005B);
+}
+.point {
+    fill: #DF005B;
+    r: 0.26vw;
+    filter: drop-shadow(0vw 0vw 1.14vw #DF005B);
+}

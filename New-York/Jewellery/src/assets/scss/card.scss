@@ -1,0 +1,177 @@
+@use './utils/functions.scss' as *;
+
+.carousel {
+    position: relative;
+    width: vw(1744);
+    height: vw(1744);
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    perspective: vw(1000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: vw(29) solid #1E2125;
+    border-radius: 50%;
+}
+.card {
+    position: fixed;
+    width: vw(125);
+    height: vw(99);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: center;
+    flex-direction: column;
+    background: #2D333D;
+    background-image: linear-gradient(rgba(#16181C, .6), rgba(#16181C, .6)), url('/back_card.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.3s ease;
+    box-shadow: 0 vw(13) vw(12) 0 rgba(0, 0, 0, 0.25);
+
+    &__head{
+        display: inline-flex;
+        height: vw(12.5);
+        padding: vw(0.536) vw(1.257);
+        padding-right: vw(4);
+        justify-content: center;
+        align-items: center;
+        background: var(--main-color);
+        color: #1E2125;
+        font-family: 'InterBLACK';
+        font-size: vw(15.014);
+        font-style: italic;
+        text-transform: uppercase;
+        margin-top: vw(-22);
+    }
+
+    &__name{
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0 vw(3) vw(1) #000;
+        font-family: 'InterBLACK';
+        font-size: vw(19.953);
+        font-style: italic;
+        text-transform: uppercase;
+    }
+
+    &__price{
+        color: var(--secondary-color);
+        text-align: center;
+        text-shadow: 0 vw(3) vw(1) #000;
+        font-family: 'InterBLACK';
+        font-size: vw(17.606);
+        font-style: italic;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        gap: vw(5.87);
+
+        img{
+            width: vw(12.911);
+            height: vw(19.953);
+        }
+    }
+}
+.card.center-card {
+   background-image: url('/back_card_active.svg');
+}
+.cards{
+    color: #404144;
+}
+.arrow{
+    display: inline-flex;
+    position: fixed;
+    bottom: vw(230);
+    width: vw(38);
+    height: vw(28);
+    left: 49%;
+    transform: rotate(90deg);
+    justify-content: center;
+    align-items: center;
+    border-radius: vw(7);
+    background: rgba(249, 34, 253, 0.15);
+}
+.bottom{
+    position: fixed;
+    bottom: vw(2);
+    left: vw(750);
+    display: inline-flex;
+    align-items: center;
+    gap: vw(17);
+
+    &__arrow{
+        display: inline-flex;
+        width: vw(38);
+        height: vw(28);
+        justify-content: center;
+        align-items: center;
+        border-radius: vw(7);
+        background: rgba(28, 255, 96, 0.15);
+    }
+
+    &__info{
+        display: flex;
+        width: vw(308);
+        align-items: flex-start;
+        gap: vw(15);
+
+        &__btn{
+            display: flex;
+            width: vw(146);
+            height: vw(59.47);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: vw(10.478);
+            border-radius: vw(12.09);
+            background: #1E2125;
+            white-space: nowrap;
+
+            .btn_p{
+                font-family: 'InterEBOLD';
+            }
+
+            .head{
+                color: var(--secondary-color);
+                font-size: vw(10);
+            }
+            
+            .descript{
+                color: var(--secondary-color);
+                font-size: vw(17);
+            }
+
+            .head_r{
+                color: #F922FD;
+                font-size: vw(10);
+            }
+            
+            .descript_r{
+                color: #F922FD;
+                font-size: vw(17);
+            }
+        }
+    }
+}
+.ellipse{
+    display: inline-flex;
+    align-items: center;
+    gap: vw(5.2890);
+    position: fixed;
+    left: 47.6%;
+    bottom: vw(70);
+}
+.div{
+    width: vw(7.052);
+    height: vw(7.052);
+    border-radius: 50%;
+    background: rgba(249, 34, 253, 0.25);
+}
+.divs{
+    width: vw(16.455);
+    height: vw(7.052);
+    border-radius: vw(7);
+    background: #F922FD;
+}

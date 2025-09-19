@@ -1,0 +1,248 @@
+@use '../../global.scss' as global;
+
+.join{
+    width: 55.63vw;
+    height: 41.56vw;
+    border-radius: 0.94vw;
+    background: global.$main-background;
+    margin-top: 7.34vw;
+    margin-left: 22.44vw;
+    display: flex;
+    flex-direction: column;
+}
+.joinActive{
+    height: 44.79vw;
+    margin-top: 5.73vw;
+}
+.content{
+    margin-top: 2.66vw;
+    margin-left: 2.81vw;
+}
+.header h2{
+    margin-top: -0.2vw;
+    font-size: 1.04vw;
+    color: global.$main-color-txt;
+    font-family: global.$extrabold;
+    margin-bottom: 0.73vw;
+}
+.header span, .header_arr span{
+    color: global.$main-color;
+}
+.header p{
+    width: 41.41vw;
+    font-size: 0.63vw;
+    color: global.$color-txt;
+    font-family: global.$regular;
+    line-height: 145.396%;
+    margin-top: -0.2vw;
+    margin-bottom: 1.56vw;
+}
+.head{
+    width: 46.35vw;
+    height: 1.2vw;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.83vw;
+    color: global.$color-txt;
+    font-family: global.$semibold;
+    line-height: 145.396%;
+    margin-bottom: 0.78vw;
+}
+.head p{
+    margin-top: -0.2vw;
+}
+.head p:nth-child(1){
+    margin-right: 6.67vw;
+}
+.head p:nth-child(2){
+    margin-right: 4.17vw;
+}
+.head p:nth-child(3){
+    margin-right: 4.64vw;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 0.78vw;
+}
+.card{
+    width: 48.65vw;
+    height: 4.27vw;
+    border-radius: 0.63vw;
+    border: global.$button-off;
+    background: global.$button-off-gradient;
+    font-family: global.$bold;
+    font-size: 0.83vw;
+    line-height: 145.396%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 44.9vw;
+    height: 1.93vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.text p:nth-child(1){
+    color: global.$main-color-txt;
+}
+.text p:nth-child(2){
+    color: global.$main-color;
+}
+.text p:nth-child(3), .text p:nth-child(4){
+    height: 1.93vw;
+    border-radius: 0.26vw;
+    background: rgba(2, 226, 137, 0.15);
+    color: #02E289;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text p:nth-child(3){
+    width: 10.47vw;
+}
+.text p:nth-child(4){
+    width: 6.25vw;
+}
+
+
+.header_company{
+    display: flex;
+    flex-direction: row;
+}
+.header_arr{
+    margin-right: 0.83vw;
+}
+.header_arr h1{
+    font-size: 1.25vw;
+    font-family: global.$extrabold;
+    line-height: 145.396%;
+    color: global.$main-color-txt;
+    margin-top: -0.2vw;
+    margin-bottom: 0.42vw;
+}
+.header_arr p{
+    font-size: 0.68vw;
+    font-family: global.$semibold;
+    line-height: 145.396%;
+    color: global.$main-color-txt;
+    margin-top: -0.2vw;
+    margin-bottom: 0.42vw;
+    width: 12.45vw;
+}
+.header_company img{
+    width: 6.61vw;
+    height: 6.61vw;
+    border-radius: 0.42vw;
+    margin-right: 4.69vw;
+}
+.company_info{
+    width: 24.06vw;
+    height: 6.61vw;
+    display: flex;
+    flex-direction: row;
+}
+.left_info{
+    font-size: 0.83vw;
+    font-family: global.$semibold;
+    line-height: 145.396%;
+    color: global.$color-txt;
+}
+.left_info p, .right_info p{
+    margin-top: -0.2vw;
+}
+.right_info{
+    font-size: 0.83vw;
+    font-family: global.$bold;
+    line-height: 145.396%;
+    color: global.$main-color-txt;
+    margin-left: auto;
+    text-align: right;
+}
+.right_info p:nth-child(2), .right_info p:nth-child(3){
+    color: #02E289;
+}
+.head_card{
+    width: 48.65vw;
+    display: flex;
+    flex-direction: row;
+    height: 1.2vw;
+    font-size: 0.83vw;
+    color: global.$color-txt;
+    font-family: global.$semibold;
+    line-height: 145.396%;
+    margin-top: 2.76vw;
+}
+.head_card p{
+    margin-top: -0.2vw;
+}
+.head_card p:nth-child(1){
+    margin-right: 18.13vw;
+}
+.head_card p:nth-child(2){
+    margin-right: 10vw;
+}
+.card_company{
+    display: flex;
+    flex-direction: column;
+}
+.card_comp_div{
+    width: 48.65vw;
+    height: 4.27vw;
+    border-radius: 0.63vw;
+    border: global.$button-off;
+    background: global.$button-off-gradient;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.83vw;
+    font-family: global.$bold;
+    color: global.$main-color-txt;
+    line-height: 145.396%;
+    margin-top: 0.78vw;
+}
+.card_comp_div .text{
+    width: 44.64vw;
+}
+.card_comp_div .text p:nth-child(3){
+    width: 6.25vw;
+}
+.content_company{
+    height: 35.83vw;
+}
+.buttons{
+    width: 21.04vw;
+    height: 2.6vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1.88vw;
+    margin-top: 1.77vw;
+}
+.btn{
+    width: 9.58vw;
+    height: 2.6vw;
+    border-radius: 0.31vw;
+    border: global.$button-on;
+    font-size: 0.83vw;
+    font-family: global.$extrabold;
+    line-height: 145.396%;
+    color: global.$main-color-txt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back_btn{
+    background: none;
+}
+.go_btn{
+    background: global.$main-gradient;
+    box-shadow: global.$main-shadow;
+}
+.buttons img{
+    width: 1.25vw;
+    height: 1.25vw;
+    margin-right: 0.36vw;
+}

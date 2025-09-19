@@ -1,0 +1,176 @@
+@use '../../../global.scss' as global;
+
+.taxi{
+    width: 50.36vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.66vw;
+    margin-left: 2.34vw;
+}
+.car_company{
+    display: flex;
+    flex-direction: column;
+}
+.car{
+    width: 23.49vw;
+    margin-bottom: 2.66vw;
+}
+.car h3{
+    font-size: 1.04vw;
+    font-family: global.$extrabold;
+    color: global.$main-color-txt;
+    line-height: 145.396%;
+    margin-top: -0.2vw;
+    margin-bottom: 1.3vw;
+}
+.car span{
+    color: global.$main-color;
+}
+.car p{
+    font-size: 0.63vw;
+    color: global.$color-txt;
+    font-family: global.$regular;
+    line-height: 145.396%;
+    margin-bottom: 1.3vw;
+}
+.car_btn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.04vw 1.72vw;
+}
+.car button{
+    width: 9.11vw;
+    height: 2.76vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.52vw;
+    background: global.$car-button;
+    border: none;
+    color: global.$main-color-txt;
+    font-size: 0.73vw;
+    font-family: global.$semibold;
+    line-height: 145.396%;
+}
+.name{
+    font-size: 1.04vw;
+    font-family: global.$extrabold;
+    color: global.$main-color-txt;
+    line-height: 145.396%;
+    margin-top: -0.2vw;
+    margin-bottom: 1.3vw;
+}
+.name span{
+    color: global.$main-color;
+}
+.card{
+    width: 23.59vw;
+    height: 14.43vw;
+    border-radius: 0.63vw;
+    border: global.$button-off;
+    background: global.$button-off-gradient;
+    margin-right: 1.67vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.stat_txt{
+    display: flex;
+    width: 10.1vw;
+    height: 11.04vw;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 0.78vw;
+    line-height: 145.396%;
+    color: global.$color-txt;
+    font-family: global.$semibold;
+    margin-top: 2vw;
+    margin-left: 2.03vw;
+}
+.stat_txt p{
+    margin-top: -0.2vw;
+}
+.stat_info{
+    margin-right: 2.03vw;
+    width: auto;
+    align-items: flex-end;
+    color: global.$main-color-txt;
+}
+.order{
+    margin-left: 0.67vw;
+}
+.order_h3{
+    font-size: 1.04vw;
+    font-family: global.$extrabold;
+    color: global.$main-color-txt;
+    line-height: 145.396%;
+    margin-top: -0.2vw;
+}
+.order_h3 span{
+    color: global.$main-color;
+}
+.order_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3vw;
+}
+.order_card{
+    width: 23.49vw;
+    height: 11.51vw;
+    border-radius: 0.63vw;
+    border: global.$button-off;
+    background: global.$button-off-gradient;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 18.7vw;
+    height: 1.51vw;
+    align-items: center;
+}
+.header h3{
+    color: global.$main-color-txt;
+    font-size: 1.04vw;
+    font-family: global.$extrabold;
+    margin-right: 7.03vw;
+}
+.header button {
+    width: 3.39vw;
+    height: 1.51vw;
+    background-image: url('/button.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.car_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 18.7vw;
+    font-family: global.$semibold;
+    font-size: 0.57vw;
+    line-height: 145.396%;
+    gap: 0.73vw;
+    margin-top: 0.73vw;
+}
+.car_txt{
+    align-items: flex-start;
+    color: global.$color-txt;
+}
+.car_info{
+    width: auto;
+    text-align: right;
+    color: global.$main-color-txt;
+}
+.car_info span{
+    color: #02E289;
+}

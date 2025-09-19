@@ -1,0 +1,521 @@
+{
+    "Header_txt":[
+        {
+            "name": "Miracle",
+            "description": "Компания Miracle предоставляет много разных решений для всех сфер бизнеса и деятелььности"
+        }
+    ],
+    "Navigate": [
+        {
+            "txt": "Главный раздел",
+            "src": "/Menu_Alt_04.svg"
+        },
+        {
+            "txt": "Рейтинг компаний",
+            "src": "/Trending_Up.svg"
+        },
+        {
+            "txt": "Продать компанию",
+            "src": "/Shopping_Bag_02.svg"
+        },
+        {
+            "txt": "Личный кабинет",
+            "src": "/User_02.svg"
+        }
+    ],
+    "Activity": [
+        {
+            "header": "Грузоперевозки",
+            "txt": "Стань частью элитной команды дальнобойщиков! Твои навыки вождения и выносливость будут вознаграждены сполна. Доставляй грузы вовремя, открывай новые маршруты и зарабатывай репутацию лучшего водителя на дороге.",
+            "src": "/gruz.svg"
+        },
+        {
+            "header": "Такси",
+            "txt": "Стань королём дорог и начни зарабатывать, перевозя пассажиров по всему городу! Будь вежливым, пунктуальным и безопасным водителем — и клиенты оценят твою работу на все 5 звёзд.",
+            "src": "/car.svg"
+        }
+    ],
+    "Statistics": [
+        {
+            "txt": "Суточный оборот",
+            "info": "52.320.420"
+        },
+        {
+            "txt": "Средний доход за заказ",
+            "info": "5.320.420"
+        },
+        {
+            "txt": "Кол-во участников",
+            "info": 0
+        },
+        {
+            "txt": "Уровень предпрития",
+            "info": 0
+        }
+    ],
+    "Cargo": {
+        "Statistics": [
+            {
+                "txt": "Средний чек заказа",
+                "info": "52.320.420"
+            },
+            {
+                "txt": "Общее кол-во выполненных заказов за сутки",
+                "info": 254
+            },
+            {
+                "txt": "Суточный оборот",
+                "info": "5.000"
+            }
+        ],
+        "Car": [
+            {
+                "src": "/car.png",
+                "rate": "эконом",
+                "arr": [
+                    {
+                        "txt": "Погрузка",
+                        "info": "Порт"
+                    },
+                    {
+                        "txt": "Требования",
+                        "info": "ИП, ООО, Tesla"
+                    },
+                    {
+                        "txt": "Время на доставку",
+                        "info": 54
+                    },
+                    {
+                        "txt": "Максимальный доход",
+                        "info": "252.320.420"
+                    }
+                ]
+            },
+            {
+                "src": "/car.png",
+                "rate": "эконом",
+                "arr": [
+                    {
+                        "txt": "Погрузка",
+                        "info": "Порт"
+                    },
+                    {
+                        "txt": "Требования",
+                        "info": "ИП, ООО, Tesla"
+                    },
+                    {
+                        "txt": "Время на доставку",
+                        "info": 54
+                    },
+                    {
+                        "txt": "Максимальный доход",
+                        "info": "252.320.420"
+                    }
+                ]
+            },
+            {
+                "src": "/car.png",
+                "rate": "эконом",
+                "arr": [
+                    {
+                        "txt": "Погрузка",
+                        "info": "Порт"
+                    },
+                    {
+                        "txt": "Требования",
+                        "info": "ИП, ООО, Tesla"
+                    },
+                    {
+                        "txt": "Время на доставку",
+                        "info": 54
+                    },
+                    {
+                        "txt": "Максимальный доход",
+                        "info": "252.320.420"
+                    }
+                ]
+            },
+            {
+                "src": "/car.png",
+                "rate": "эконом",
+                "arr": [
+                    {
+                        "txt": "Погрузка",
+                        "info": "Порт"
+                    },
+                    {
+                        "txt": "Требования",
+                        "info": "ИП, ООО, Tesla"
+                    },
+                    {
+                        "txt": "Время на доставку",
+                        "info": 54
+                    },
+                    {
+                        "txt": "Максимальный доход",
+                        "info": "252.320.420"
+                    }
+                ]
+            }
+        ]
+    },
+    "Taxi": {
+        "NameCar": [
+            {
+                "name": "Kamaz42356R"
+            },
+            {
+                "name": "Kamaz42356R"
+            },
+            {
+                "name": "Kamaz42356R"
+            },
+            {
+                "name": "Kamaz42356R"
+            },
+            {
+                "name": "Kamaz42356R"
+            }
+        ],
+        "Statistics": [
+            {
+                "txt": "Суточный оборот",
+                "info": "52.320.420"
+            },
+            {
+                "txt": "Общее кол-во выполненных заказов за сутки",
+                "info": 253
+            },
+            {
+                "txt": "Средний заработок за заказ",
+                "info": "0"
+            }
+        ],
+        "Car": [
+            {
+                "rate": "эконом",
+                "arr": [
+                    {
+                        "txt": "Погрузка",
+                        "info": "Порт"
+                    },
+                    {
+                        "txt": "Требования",
+                        "info": "ИП, ООО, Tesla"
+                    },
+                    {
+                        "txt": "Время на доставку",
+                        "info": 54
+                    },
+                    {
+                        "txt": "Максимальный доход",
+                        "info": "252.320.420"
+                    }
+                ]
+            },
+            {
+                "rate": "эконом",
+                "arr": [
+                    {
+                        "txt": "Погрузка",
+                        "info": "Порт"
+                    },
+                    {
+                        "txt": "Требования",
+                        "info": "ИП, ООО, Tesla"
+                    },
+                    {
+                        "txt": "Время на доставку",
+                        "info": 54
+                    },
+                    {
+                        "txt": "Максимальный доход",
+                        "info": "252.320.420"
+                    }
+                ]
+            },
+            {
+                "rate": "эконом",
+                "arr": [
+                    {
+                        "txt": "Погрузка",
+                        "info": "Порт"
+                    },
+                    {
+                        "txt": "Требования",
+                        "info": "ИП, ООО, Tesla"
+                    },
+                    {
+                        "txt": "Время на доставку",
+                        "info": 54
+                    },
+                    {
+                        "txt": "Максимальный доход",
+                        "info": "252.320.420"
+                    }
+                ]
+            },
+            {
+                "rate": "эконом",
+                "arr": [
+                    {
+                        "txt": "Погрузка",
+                        "info": "Порт"
+                    },
+                    {
+                        "txt": "Требования",
+                        "info": "ИП, ООО, Tesla"
+                    },
+                    {
+                        "txt": "Время на доставку",
+                        "info": 54
+                    },
+                    {
+                        "txt": "Максимальный доход",
+                        "info": "252.320.420"
+                    }
+                ]
+            }
+        ]
+    },
+    "Top": [
+        {
+            "place": "1",
+            "company": "Miracle",
+            "persons": 82,
+            "income": "19.002.000"
+        },
+        {
+            "place": "1",
+            "company": "Miracle",
+            "persons": 82,
+            "income": "19.002.000"
+        },
+        {
+            "place": "1",
+            "company": "Miracle",
+            "persons": 82,
+            "income": "19.002.000"
+        },
+        {
+            "place": "1",
+            "company": "Miracle",
+            "persons": 82,
+            "income": "19.002.000"
+        },
+        {
+            "place": "1",
+            "company": "Miracle",
+            "persons": 82,
+            "income": "19.002.000"
+        },
+        {
+            "place": "1",
+            "company": "Miracle",
+            "persons": 82,
+            "income": "19.002.000"
+        },
+        {
+            "place": "1",
+            "company": "Miracle",
+            "persons": 82,
+            "income": "19.002.000"
+        }
+    ],
+    "Lk": {
+        "Statistics": [
+            {
+                "txt": "Ваш Nick Name",
+                "info": "Miracle Design"
+            },
+            {
+                "txt": "Общий доход",
+                "info": "5.320.420"
+            },
+            {
+                "txt": "Кол-во заказов за день",
+                "info": 252
+            },
+            {
+                "txt": "Кол-во дохода за день",
+                "info": "1.320.420"
+            },
+            {
+                "txt": "Роль",
+                "info": "Работник"
+            }
+        ],
+        "Top": [
+            {
+                "place": "1",
+                "company": "Miracle Design",
+                "persons": 153,
+                "income": "19.002"
+            },
+            {
+                "place": "1",
+                "company": "Miracle Design",
+                "persons": 153,
+                "income": "19.002"
+            },
+            {
+                "place": "1",
+                "company": "Miracle Design",
+                "persons": 153,
+                "income": "19.002"
+            },
+            {
+                "place": "1",
+                "company": "Miracle Design",
+                "persons": 153,
+                "income": "19.002"
+            }
+        ]
+    },
+    "CreateCompany": [
+        {
+            "src": "/Log_Out.svg",
+            "head": "Вступить",
+            "text": "Готов стать частью чего-то большего? Присоединяйся к одному из ведущих предприятий города и получи доступ к эксклюзивным возможностям, ресурсам и заданиям. Работай в команде, выполняй важные задачи и поднимай свой статус в мире бизнеса."
+        },
+        {
+            "src": "/File_Edit.svg",
+            "head": "Создать",
+            "text": "Мечтал управлять собственным бизнесом? Создай своё предприятие и стань лидером, который ведёт за собой команду к успеху. Развивай структуру, привлекай сотрудников и расширяй влияние в городе."
+        }
+    ],
+    "JoinCompany": {
+        "Main": [
+            {
+                "company": "Miracle",
+                "persons": 182,
+                "income": "19.002.000",
+                "reseipt": "19.002",
+                "king": "Miracle Design",
+                "src": "/logo.png",
+                "level": 15
+            },
+            {
+                "company": "Miracle",
+                "persons": 182,
+                "income": "19.002.000",
+                "reseipt": "19.002",
+                "king": "Miracle Design",
+                "src": "/logo.png",
+                "level": 15
+            },
+            {
+                "company": "Miracle",
+                "persons": 182,
+                "income": "19.002.000",
+                "reseipt": "19.002",
+                "king": "Miracle Design",
+                "src": "/logo.png",
+                "level": 15
+            },
+            {
+                "company": "Miracle",
+                "persons": 182,
+                "income": "19.002.000",
+                "reseipt": "19.002",
+                "king": "Miracle Design",
+                "src": "/logo.png",
+                "level": 15
+            },
+            {
+                "company": "Miracle",
+                "persons": 182,
+                "income": "19.002.000",
+                "reseipt": "19.002",
+                "king": "Miracle Design",
+                "src": "/logo.png",
+                "level": 15
+            },
+            {
+                "company": "Miracle",
+                "persons": 182,
+                "income": "19.002.000",
+                "reseipt": "19.002",
+                "king": "Miracle Design",
+                "src": "/logo.png",
+                "level": 15
+            },
+            {
+                "company": "Miracle",
+                "persons": 182,
+                "income": "19.002.000",
+                "reseipt": "19.002",
+                "king": "Miracle Design",
+                "src": "/logo.png",
+                "level": 15
+            },
+            {
+                "company": "Miracle",
+                "persons": 182,
+                "income": "19.002.000",
+                "reseipt": "19.002",
+                "king": "Miracle Design",
+                "src": "/logo.png",
+                "level": 15
+            },
+            {
+                "company": "Miracle",
+                "persons": 182,
+                "income": "19.002.000",
+                "reseipt": "19.002",
+                "king": "Miracle Design",
+                "src": "/logo.png",
+                "level": 15
+            }
+        ],
+        "Personal": [
+            [
+                {
+                    "name": "Miracle Design",
+                    "day": 153,
+                    "money": "19.002"
+                },
+                {
+                    "name": "Miracle Design",
+                    "day": 153,
+                    "money": "19.002"
+                },
+                {
+                    "name": "Miracle Design",
+                    "day": 153,
+                    "money": "19.002"
+                },
+                {
+                    "name": "Miracle Design",
+                    "day": 153,
+                    "money": "19.002"
+                },
+                {
+                    "name": "Miracle Design",
+                    "day": 153,
+                    "money": "19.002"
+                },
+                {
+                    "name": "Miracle Design",
+                    "day": 153,
+                    "money": "19.002"
+                },
+                {
+                    "name": "Miracle Design",
+                    "day": 153,
+                    "money": "19.002"
+                },
+                {
+                    "name": "Miracle Design",
+                    "day": 153,
+                    "money": "19.002"
+                },
+                {
+                    "name": "Miracle Design",
+                    "day": 153,
+                    "money": "19.002"
+                }
+            ]
+        ]
+    }
+}

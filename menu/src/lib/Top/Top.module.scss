@@ -1,0 +1,94 @@
+@use '../../global.scss' as global;
+
+.top{
+    margin-top: 2.66vw;
+    margin-left: 2.03vw;
+}
+.txt h3{
+    font-size: 1.04vw;
+    font-family: global.$extrabold;
+    line-height: 145.396%;
+    color: global.$main-color-txt;
+    margin-top: -0.2vw;
+    margin-bottom: 0.73vw;
+}
+.txt span{
+    color: global.$main-color;
+}
+.txt p{
+    width: 37.5vw;
+    color: global.$color-txt;
+    font-family: global.$regular;
+    font-size: 0.63vw;
+    line-height: 145.396%;
+    margin-bottom: 1.56vw;
+}
+.table{
+    width: 48.65vw;
+}
+.header{
+    width: 43.54vw;
+    height: 1.2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: global.$color-txt;
+    font-size: 0.83vw;
+    font-family: global.$semibold;
+    line-height: 145.396%;
+    margin-bottom: 0.78vw;
+}
+.header p:nth-child(1){
+    margin-right: 8.23vw;
+}
+.header p:nth-child(2){
+    margin-right: 6.46vw;
+}
+.header p:nth-child(3){
+    margin-right: 5.42vw;
+}
+.table_card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.78vw;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7.81vw;
+    width: 48.65vw;
+    height: 4.27vw;
+    border-radius: 0.63vw;
+    border: global.$button-off;
+    color: global.$main-color-txt;
+    font-size: 0.83vw;
+    font-family: global.$bold;
+    line-height: 145.396%;
+}
+.card p:nth-child(1){
+    margin-left: 2.24vw;
+}
+.card p:nth-child(3){
+    color: global.$main-color;
+}
+.card p:nth-child(4){
+    width: 10.47vw;
+    height: 1.93vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: rgba(2, 226, 137, 0.15);
+    margin-left: -0.6vw;
+    color: #02E289;
+}
+.activeCard1{
+    background: global.$top-one;
+}
+.activeCard2{
+    background: global.$top-two;
+}
+.activeCard3{
+    background: global.$top-three;
+}

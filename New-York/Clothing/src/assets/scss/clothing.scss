@@ -1,0 +1,269 @@
+@use './utils/functions.scss' as *;
+
+.center_bar{
+    display: flex;
+    align-self: stretch;
+}
+.logo{
+    display: flex;
+    width: vw(352);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.3vw;
+    margin-left: vw(40);
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        align-self: stretch;
+
+        &__header{
+            color: var(--text-white);
+            font-size: vw(44.575);
+            font-family: 'InterBLACK';
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-bottom: vw(18.573);
+        }
+
+        &__info{
+            color: var(--text-white);
+            font-size: vw(12.63);
+            font-family: 'InterSBOLD';
+            opacity: .5;
+            font-weight: 600;
+        }
+
+        &__img{
+            width: vw(128);
+            height: vw(43);
+        }
+    }
+
+    &__text p{
+        margin-top: vw(-8);
+    }
+
+    &__drag{
+        width: vw(308);
+        display: flex;
+        padding: vw(7.203);
+        align-items: center;
+        align-content: flex-start;
+        justify-content: center;
+        gap: vw(10);
+        flex-wrap: wrap;
+        border-radius: vw(11.204);
+        background: #1E2125;
+        backdrop-filter: blur(vw(1.60063898563385));
+        text-transform: uppercase;
+
+        &__p1{
+            width: vw(129);
+            height: vw(23.64784);
+            border-radius: vw(5);
+            background: #16181C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            white-space: nowrap;
+            font-size: vw(12);
+            font-family: 'InterEBOLD';
+            color: rgba(white, 0.25);
+        }
+
+        &__text{
+            display: flex;
+            gap: vw(8);
+            flex-wrap: nowrap;
+            color: rgba(white, 0.25);
+            font-family: 'InterSBOLD';
+            font-size: vw(12.005);
+
+            img{
+                width: vw(14.41);
+                height: vw(14.41);
+            }
+        }
+    }
+}
+.exit{
+    margin-top: vw(-40);
+    margin-left: auto;
+    display: flex;
+    width: vw(47);
+    height: vw(47);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: vw(10);
+    background: #FF543E;
+    box-shadow: vw(-7) vw(7) 0 0 rgba(255, 84, 62, 0.24);
+}
+.exit img{
+    width: vw(41);
+    height: vw(41);
+}
+.info_clothing{
+    margin-top: vw(90);
+    margin-right: vw(34);
+    margin-left: auto;
+    display: flex;
+    width: vw(143);
+    flex-direction: column;
+    align-items: flex-end;
+    gap: vw(15);
+
+    &__header{
+        display: flex;
+        align-items: center;
+        gap: vw(10);
+        color: #FDBE22;
+        text-align: right;
+        font-family: 'InterSBOLD';
+        font-size: vw(14);
+    }
+    &__header img{
+        width: vw(21);
+        height: vw(21);
+    }
+    &__center{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: vw(25);
+        align-self: stretch;
+
+        &__img{
+            display: flex;
+            width: vw(120.12);
+            height: vw(126);
+            justify-content: center;
+            align-items: center;
+            border-radius: vw(10.155);
+            background: #1E2125;
+        }
+
+        &__text{
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+            font-family: 'InterBLACK';
+            font-size: vw(17);
+            font-style: italic;
+            text-transform: uppercase;
+            gap: vw(15);
+
+            &__pant{
+                color: white;
+            }
+
+            &__texture{
+                color: #8C8C8C;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                white-space: nowrap;
+                gap: vw(15);
+                align-self: stretch;
+            }
+        }
+
+        &__text p{
+            text-shadow: 0 vw(3) vw(1) #000;
+        }
+
+        &__text img{
+            width: vw(26);
+            height: vw(26);
+        }
+    }
+}
+
+.total {
+    display: flex;
+    position: fixed;
+    bottom: vw(27.93);
+    right: vw(24);
+    width: vw(338);
+    flex-direction: column;
+    align-items: flex-end;
+    gap: vw(12);
+    height: vw(143);
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: vw(8);
+        align-self: stretch;
+
+        &__head{
+            display: flex;
+            align-items: center;
+            gap: vw(10);
+
+            div{
+                display: flex;
+                padding: vw(6.034);
+                justify-content: center;
+                align-items: center;
+                gap: vw(12.069);
+                border-radius: vw(7);
+                background: rgba(28, 255, 96, 0.15);
+                color: var(--secondary-color);
+                font-family: 'InterBLACK';
+                font-size: vw(14.483);
+                text-transform: uppercase;
+            }
+
+            p{
+                color: var(--text-white);
+                text-align: right;
+                font-family: 'InterBLACK';
+                font-size: vw(17);
+                text-transform: uppercase;
+            }
+        }
+        &__p{
+            color: var(--secondary-color);
+            text-align: right;
+            font-family: 'InterBLACK';
+            font-size: vw(35);
+            text-transform: uppercase;
+        }
+    }
+
+    &__buttons{
+        display: flex;
+        align-items: flex-start;
+        gap: vw(15);
+
+        &__card{
+            width: vw(24);
+            height: vw(24);
+        }
+        &__cash{
+            width: vw(12);
+            height: vw(21);
+        }
+    }
+
+    &__buttons button{
+        display: flex;
+        width: vw(157);
+        height: vw(47);
+        justify-content: center;
+        align-items: center;
+        gap: vw(10);
+        background: var(--main-color);
+        box-shadow: vw(-7) vw(7) 0 0 rgba(36, 150, 240, 0.24);
+        color: var(--text-white);
+        font-family: 'InterBLACK';
+        font-size: vw(15);
+        text-transform: uppercase;
+    }
+}

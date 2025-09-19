@@ -1,0 +1,113 @@
+@use '../../global.scss' as global;
+
+.activity{
+    height: 17.24vw;
+    margin-left: 3.45vw;
+    margin-top: 2.66vw;
+}
+.name{
+    font-size: 1.04vw;
+    font-family: global.$extrabold;
+    color: global.$main-color-txt;
+    line-height: 145.396%;
+    margin-top: -0.2vw;
+    margin-bottom: 1.3vw;
+}
+.name span{
+    color: global.$main-color;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    width: 23.59vw;
+    height: 14.43vw;
+    border-radius: 0.63vw;
+    border: global.$button-off;
+    background: global.$button-off-gradient;
+    margin-right: 1.67vw;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    margin-left: -0.98vw;
+}
+.card img{
+    width: 12.71vw;
+    height: 10.94vw;
+}
+.text{
+    width: 12.44vw;
+    height: 8.33vw;
+    margin-left: -1vw;
+    margin-top: 1.25vw;
+}
+.text h3{
+    color: global.$main-color-txt;
+    font-family: global.$extrabold;
+    font-size: 1.04vw;
+    line-height: 145.396%;
+    margin-top: -0.2vw;
+    margin-bottom: 0.63vw;
+}
+.text p{
+    font-family: global.$regular;
+    font-size: 0.63vw;
+    color: global.$color-txt;
+    line-height: 145.396%;
+}
+.card button{
+    width: 19.79vw;
+    height: 2.55vw;
+    border-radius: 0.31vw;
+    border: global.$button-off;
+    background: global.$button-off-gradient;
+    color: global.$main-color-txt;
+    font-size: 0.68vw;
+    font-family: global.$semibold;
+    line-height: 145.396%;
+    margin-left: 1.77vw;
+}
+.Stat{
+    display: flex;
+    flex-direction: row;
+}
+.chart{
+    width: 23.49vw;
+    height: 14.43vw;
+    margin-top: 3.9vw;
+}
+.statistics{
+    margin-top: 1.3vw;
+    margin-left: 3.45vw;
+}
+.card_stat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.stat_txt{
+    display: flex;
+    width: 10.1vw;
+    height: 11.04vw;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 0.78vw;
+    line-height: 145.396%;
+    color: global.$color-txt;
+    font-family: global.$semibold;
+    gap: 1.7vw;
+    margin-top: 1.56vw;
+    margin-left: 2.03vw;
+}
+.stat_txt p{
+    margin-top: -0.2vw;
+}
+.stat_info{
+    margin-right: 2.03vw;
+    width: auto;
+    align-items: flex-end;
+    color: global.$main-color-txt;
+}

@@ -1,0 +1,26 @@
+@use './utils/functions.scss' as *;
+
+.header_bar{
+    width: vw(585);
+    height: vw(40);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: vw(25);
+    font-size: vw(12.63);
+    font-family: 'InterSBOLD';
+    font-weight: 600;
+    margin-left: vw(672.5);
+
+    img{
+        width: vw(17);
+        height: vw(15);
+    }
+
+    &__left, &__right{
+        display: flex;
+        align-items: center;
+        gap: vw(10);
+        color: var(--yellow);
+    }
+}

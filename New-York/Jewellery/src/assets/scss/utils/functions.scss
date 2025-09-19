@@ -1,0 +1,15 @@
+@function vh($px) {
+    @return 0.09259259259259259vh * $px;
+}
+
+@function vw($px) {
+    @return 0.052083333333333336vw * $px;
+}
+
+@function img($name) {
+    @return "@/assets/img/" + $name;
+}
+
+@function rem($px) {
+    @return 0.0625rem * $px;
+}

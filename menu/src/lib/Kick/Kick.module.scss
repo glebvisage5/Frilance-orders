@@ -1,0 +1,46 @@
+@use '../../global.scss' as global;
+
+.kick{
+    width: 10.68vw;
+    height: 13.85vw;
+    background: global.$main-background;
+    border-radius: 0.52vw;
+    align-items: start;
+    margin-top: -14.69vw;
+    margin-left: 85.94vw;
+}
+.ot{
+    position: relative;
+    top: 1.15vw;
+    margin-left: 1.35vw;
+}
+.kick p{
+    font-size: 0.83vw;
+    line-height: 145.396%;
+    font-family: global.$semibold;
+    color: global.$color-txt;
+}
+.kick h4{
+    color: global.$main-color-txt;
+    line-height: 145.396%;
+    font-family: global.$bold;
+}
+.kick_btn{
+    width: 7.97vw;
+    height: 1.88vw;
+    border: global.$button-off;
+    background: global.$button-off-gradient;
+    font-size: 0.57vw;
+    color: global.$main-color-txt;
+    line-height: 145.396%;
+    border-radius: 0.26vw;
+    font-family: global.$bold;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.kick_btn_chs{
+    height: 3.54vw;
+    justify-content: start;
+    text-align: left;
+}

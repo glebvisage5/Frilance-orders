@@ -1,0 +1,299 @@
+@use 'functions' as *
+
+.menus
+    position: fixed
+    font-family: 'Montserrat'
+    box-sizing: border-box
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    display: flex
+    flex-direction: column
+    width: vw(1329)
+    height: vw(767)
+    border-radius: vw(18)
+    background: rgba(24, 24, 23, 0.98)
+    z-index: 0
+
+.header
+    display: flex
+    width: vw(1251)
+    height: vw(54)
+    margin-top: vw(35)
+    margin-left: vw(35)
+    justify-content: space-between
+    align-items: center
+
+    .left
+        width: vw(193)
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: vw(14)
+
+        img
+            width: vw(42)
+            height: vw(38)
+
+        .HomeNumber
+            color: var(--color-main)
+            font-size: vw(24)
+            font-weight: 800
+            line-height: 145.396%
+
+        .HomeEntrance 
+            font-size: vw(13)
+            font-weight: 600
+
+    .right
+        display: flex
+        align-items: center
+        justify-content: flex-end
+        gap: vw(49.25)
+
+        .balance
+            display: flex
+            align-items: center
+            gap: vw(14)
+            margin-left: auto
+
+            .text
+                font-size: vw(16)
+                font-weight: 600
+        
+            .CashCard
+                width: vw(375.75)
+                display: flex
+                gap: vw(21.5)
+                color: var(--color-main)
+                font-weight: 800
+                font-size: vw(24)
+                text-wrap: nowrap
+
+                .vector
+                    width: vw(2)
+                    height: vw(27.5)
+
+                .card
+                    display: flex
+                    align-items: center
+                    gap: vw(10)
+
+                    img
+                        width: vw(24.75)
+                        height: vw(20.1)
+
+        .close
+            width: vw(12)
+            height: vw(12)
+
+.mainMenu
+    display: flex
+    flex-direction: row
+    gap: vw(50)
+    margin-top: vw(41)
+    margin-left: vw(35)
+
+.stairwell
+    width: vw(300)
+    height: vw(602)
+    border-radius: vw(6)
+    border: vw(1) solid var(--color-secondary)
+    background: var(--color-secondary-background)
+    display: flex
+    align-items: center
+    flex-direction: column
+    justify-content: flex-end
+
+    img
+        width: vw(268)
+        height: vw(289)
+        margin-top: auto
+    
+    .header_text
+        font-size: vw(16)
+        font-weight: 800
+        color: var(--color-main)
+        margin-top: vw(20)
+
+    .home_grid
+        display: grid
+        width: vw(260)
+        gap: vw(20)
+        grid-template-columns: repeat(4, minmax(0, 1fr))
+        margin-top: vw(20)
+
+        .home_card
+            display: flex
+            align-items: center
+            justify-content: center
+            outline: none
+            width: vw(50)
+            height: vw(50)
+            border-radius: vw(6)
+            border: vw(1) solid var(--color-secondary)
+            background: var(--color-secondary-background)
+            font-size: vw(16)
+            font-weight: 800
+            color: rgba(255, 255, 255, 0.52)
+
+            &.active
+                background: var(--color-active-background)
+                color: rgba(24, 24, 23, 0.98)
+                box-shadow: 0 0 vw(71.8) 0 rgba(255, 255, 255, 0.13)
+
+.home_details
+    width: vw(901)
+    height: vw(602)
+    border-radius: vw(12)
+    border: vw(1) solid var(--color-secondary)
+    background: var(--color-secondary-background)
+
+    .photo
+        width: vw(901)
+        height: vw(253)
+        margin-bottom: vw(25)
+
+    .room
+        display: flex
+        width: vw(851)
+        justify-content: space-between
+        align-items: center
+        margin-left: vw(25)
+
+        .room_header
+            color: var(--color-main)
+            font-size: vw(20)
+            font-weight: 800
+
+    .class
+        display: flex
+        justify-content: space-between
+        align-items: center
+        gap: vw(15)
+        color: var(--color-main)
+        font-size: vw(18)
+        font-weight: 600
+
+    .room_info
+        display: inline-flex
+        flex-direction: column
+        align-items: flex-start
+        gap: vw(12)
+        margin-top: vw(39)
+        margin-left: vw(25)
+
+    .helicopter
+        display: flex
+        width: vw(498)
+        height: vw(56)
+        justify-content: center
+        align-items: center
+        gap: vw(15)
+        border-radius: vw(10)
+        border: vw(1) solid var(--color-secondary)
+        background: var(--color-secondary-background)
+        margin-bottom: vw(41)
+
+        img
+            width: vw(29.444)
+            height: vw(19)
+        
+        p
+            font-size: vw(18)
+            font-weight: 800
+            background: var(--color-active-background)
+            background-clip: text
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+
+    .costButton
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        margin-left: vw(25)
+    
+        .cost
+            display: flex
+            flex-direction: column
+            color: var(--color-main)
+            font-size: vw(18)
+            font-weight: 600
+        
+        .call
+            display: flex
+            justify-content: center
+            align-items: center
+            margin-right: vw(25)
+            padding: vw(15)
+            border-radius: vw(10)
+            flex-direction: row
+            gap: vw(15)
+            border: vw(1) solid var(--color-secondary)
+            background: var(--color-secondary-background)
+            font-size: vw(18)
+            font-weight: 800
+            color: #D9D9D9
+
+            .call_img
+                width: vw(16)
+                height: vw(19.951)
+            
+            .go_img
+                width: vw(20)
+                height: vw(18)
+            
+            .exit_img
+                transform: rotate(180deg)
+
+.information
+    position: fixed
+    font-family: 'Montserrat'
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: vw(418)
+    height: vw(244)
+    border-radius: vw(18)
+    background: #181817
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    z-index: 1
+
+    img
+        width: vw(12)
+        height: vw(12)
+        margin-top: vw(-20)
+        margin-bottom: vw(1)
+        margin-left: vw(381)
+        margin-right: vw(25)
+
+    .info
+        width: vw(336)
+        height: vw(169)
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        text-align: center
+        gap: vw(25)
+
+        h1
+            color: var(--color-main)
+            font-size: vw(24)
+            font-weight: 800
+        
+        p
+            font-size: vw(13)
+            font-weight: 600
+        
+        button
+            padding: vw(10) vw(15)
+            border-radius: vw(10)
+            border: vw(1) solid var(--color-secondary)
+            background: var(--color-secondary-background)
+            font-size: vw(18)
+            font-weight: 800
+            color: #d9d9d9

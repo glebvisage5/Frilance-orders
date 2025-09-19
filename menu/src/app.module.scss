@@ -1,0 +1,104 @@
+@use './global.scss' as global;
+
+body{
+    background-image: url('/background.png');
+    background-size: cover;
+}
+.MainSection {
+    width: 69.22vw;
+    height: 41.56vw;
+    background: global.$main-background;
+    margin-top: 7.34vw;
+    margin-left: 15.36vw;
+    border-radius: 0.94vw;
+    
+    display: flex;
+    overflow: hidden;
+}
+.createCompany{
+    width: 44.84vw;
+    height: 31.25vw;
+    background: global.$main-background;
+    border-radius: 0.94vw;
+    margin-top: 12.5vw;
+    margin-left: 27.85vw;
+    gap: 1.5vw;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Navigate{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    flex-shrink: 0;
+    background: global.$main-background;
+}
+.Header{
+    width: 12.45vw;
+    height: 5.21vw;
+    color: global.$main-color-txt;
+    margin-top: 2.66vw;
+    margin-left: 2.29vw;
+}
+.Header h2{
+    font-family: global.$extrabold;
+    font-size: 1.25vw;
+    margin-top: -0.2vw;
+}
+.Header span{
+    color: global.$main-color;
+}
+.Header_p{
+    font-family: global.$semibold;
+    font-size: 0.68vw;
+    line-height: 145.396%;
+    margin-top: -0.42vw;
+}
+.createCompany h1{
+    font-family: global.$extrabold;
+    color: global.$main-color-txt;
+    font-size: 1.88vw;
+    line-height: 145.396%;
+    margin-top: -0.2vw;
+}
+.createCompany span{
+    color: global.$main-color;
+}
+.create_cards{
+    display: flex;
+    flex-direction: row;
+    gap: 3.49vw;
+}
+.create_card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 15.63vw;
+    height: 20.83vw;
+    border-radius: 0.63vw;
+    border: global.$button-off;
+    background: global.$button-off-gradient;
+}
+.create_card img{
+    width: 6.15vw;
+    height: 6.15vw;
+}
+.create_card h2{
+    font-family: global.$extrabold;
+    font-size: 1.04vw;
+    color: global.$main-color-txt;
+    line-height: 145.396%;
+}
+.create_card p{
+    font-family: global.$regular;
+    font-size: 0.63vw;
+    color: global.$color-txt;
+    line-height: 145.396%;
+    width: 11.88vw;
+}

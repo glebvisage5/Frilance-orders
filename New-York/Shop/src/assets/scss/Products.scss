@@ -1,0 +1,66 @@
+@use './utils/functions.scss' as *;
+
+.Products{
+    display: flex;
+    width: vw(180);
+    height: vw(196);
+    padding: vw(7.461);
+    gap: vw(7.461);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: vw(11.192);
+    background: #1E2125;
+    overflow: hidden;
+    position: relative;
+
+    .header{
+        display: flex;
+        width: vw(154.449);
+        height: vw(14);
+        justify-content: space-between;
+        align-items: center;
+
+        .stock, .status{
+            display: flex;
+            padding: vw(3.447);
+            justify-content: center;
+            align-items: center;
+            border-radius: vw(3.447);
+            font-family: 'InterBLACK';
+            font-size: vw(10);
+            text-transform: uppercase;
+        }
+        .stock{
+            background: #1E2125;
+            color: rgba(255, 255, 255, 0.50);
+        }
+        .status{
+            background: rgba(255, 255, 255, 0.10);
+            color: #FFF;
+        }
+    }
+
+    &__logo{
+        width: vw(165.349);
+        height: vw(108.189);
+    }
+    
+    .price{
+        margin-top: auto;
+        color: #1CFF60;
+        font-family: 'InterBLACK';
+        font-size: vw(20.588);
+        font-style: italic;
+    }
+    
+    .background{
+        width: vw(209.663);
+        height: vw(49.991);
+        object-fit: contain;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}

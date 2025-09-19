@@ -1,0 +1,172 @@
+@use './utils/functions.scss' as *;
+
+.header_bar{
+    display: flex;
+    align-self: stretch;
+}
+.logo{
+    display: flex;
+    width: vw(409);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3vw;
+    position: fixed;
+    text-align: center;
+    top: vw(82.23);
+    left: vw(761);
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+
+        &__header{
+            color: var(--text-white);
+            font-size: vw(44.575);
+            font-family: 'InterBLACK';
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-bottom: vw(18.573);
+        }
+
+        &__info{
+            color: var(--text-white);
+            font-size: vw(12.63);
+            font-family: 'InterSBOLD';
+            opacity: .5;
+            font-weight: 600;
+        }
+
+        &__img{
+            width: vw(128);
+            height: vw(43);
+        }
+    }
+
+    &__text p{
+        margin-top: vw(-8);
+    }
+}
+.exit{
+    margin-left: auto;
+    display: flex;
+    width: vw(47);
+    height: vw(47);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: vw(10);
+    background: #FF543E;
+    box-shadow: vw(-7) vw(7) 0 0 rgba(255, 84, 62, 0.24);
+}
+.exit img{
+    width: vw(41);
+    height: vw(41);
+}
+
+.categories{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: vw(885);
+    height: vw(47);
+    gap: vw(25);
+    margin-top: vw(197);
+    margin-left: vw(523);
+
+    &__card{
+        display: flex;
+        width: vw(157);
+        height: vw(47);
+        justify-content: center;
+        align-items: center;
+        font-family: 'InterBLACK';
+        font-size: vw(15);
+        background: #1E2125;
+        box-shadow: vw(-7) vw(7) 0 0 rgba(30, 33, 37, 0.24);
+        color: rgba(255, 255, 255, 0.25);
+        text-transform: uppercase;
+
+        &__active{
+            background: #2496F0;
+            box-shadow: vw(-7) vw(7) 0 0 rgba(36, 150, 240, 0.24);
+            color: white;
+        }
+    }
+}
+
+.center_bar{
+    display: flex;
+    align-items: flex-start;
+    margin-top: vw(37);
+    margin-left: vw(92);
+    gap: vw(25);
+
+    .advertisement{
+        display: flex;
+        flex-direction: column;
+        width: vw(327);
+        height: vw(755);
+        padding: vw(10);
+        align-items: flex-start;
+        background-image: linear-gradient(rgba(#16181C, .8), rgba(#16181C, .8)), url('/back_card.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        .phone{
+            width: vw(399.39);
+            height: vw(559);
+            object-fit: contain;
+            margin-top: vw(-86);
+        }
+
+        &__text{
+            display: flex;
+            width: vw(264);
+            flex-direction: column;
+            align-items: center;
+            gap: vw(20);
+            margin-top: vw(33);
+
+            .title{
+                transform: rotate(-4.225deg);
+                color: #FFF;
+                text-align: center;
+                text-shadow: 0 vw(8.692) vw(6.048) #000;
+                font-family: 'InterBLACK';
+                font-size: vw(63.378);
+                font-style: italic;
+            }
+
+            .discription{
+                color: rgba(255, 255, 255, 0.50);
+                text-align: center;
+                font-family: 'InterBOLD';
+                font-size: vw(14.439);
+            }
+        }
+        .price{
+            color: var(--secondary-color);
+            font-family: 'InterBLACK';
+            font-size: vw(32.111);
+            font-style: italic;
+            margin-top: auto;
+        }
+    }
+    
+    .product{
+        display: flex;
+        width: vw(756);
+        align-items: center;
+        align-content: center;
+        gap: vw(12);
+        flex-wrap: wrap;
+    }
+}

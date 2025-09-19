@@ -1,0 +1,125 @@
+@use '../../../global.scss' as global;
+
+.cargo{
+    margin-top: 2.66vw;
+    margin-left: 2.34vw;
+}
+.name{
+    font-size: 1.04vw;
+    font-family: global.$extrabold;
+    color: global.$main-color-txt;
+    line-height: 145.396%;
+    margin-top: -0.2vw;
+    margin-bottom: 1.3vw;
+}
+.name span{
+    color: global.$main-color;
+}
+.card{
+    width: 23.59vw;
+    height: 14.43vw;
+    border-radius: 0.63vw;
+    border: global.$button-off;
+    background: global.$button-off-gradient;
+    margin-right: 1.67vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.stat_txt{
+    display: flex;
+    width: 10.1vw;
+    height: 11.04vw;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 0.78vw;
+    line-height: 145.396%;
+    color: global.$color-txt;
+    font-family: global.$semibold;
+    margin-top: 2vw;
+    margin-left: 2.03vw;
+}
+.stat_txt p{
+    margin-top: -0.2vw;
+}
+.stat_info{
+    margin-right: 2.03vw;
+    width: auto;
+    align-items: flex-end;
+    color: global.$main-color-txt;
+}
+.cars{
+    max-width: 49vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.67vw;
+}
+.car{
+    margin-top: 1.3vw;
+}
+.card_car{
+    width: 15.1vw;
+    height: 15.68vw;
+    border-radius: 0.63vw;
+    border: global.$button-off;
+    background: global.$button-off-gradient;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.car_img{
+    width: 10.21vw;
+    height: 5.73vw;
+    margin-bottom: 0.68vw;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 12.6vw;
+    height: 1.51vw;
+    align-items: center;
+}
+.header h3{
+    color: global.$main-color-txt;
+    font-size: 1.04vw;
+    font-family: global.$extrabold;
+    margin-right: 0.94vw;
+}
+.header button {
+    width: 3.39vw;
+    height: 1.51vw;
+    background-image: url('/button.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.car_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 12.6vw;
+    font-family: global.$semibold;
+    font-size: 0.57vw;
+    line-height: 145.396%;
+    gap: 0.73vw;
+    margin-top: 0.73vw;
+}
+.car_txt{
+    align-items: flex-start;
+    color: global.$color-txt;
+}
+.car_info{
+    width: auto;
+    text-align: right;
+    color: global.$main-color-txt;
+}
+.car_info span{
+    color: #02E289;
+}

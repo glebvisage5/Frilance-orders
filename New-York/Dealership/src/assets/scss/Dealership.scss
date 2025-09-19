@@ -1,0 +1,398 @@
+@use './utils/functions.scss' as *;
+
+.center_bar{
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    width: vw(352);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.3vw;
+    margin-left: vw(40);
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        align-self: stretch;
+
+        &__header{
+            color: var(--text-white);
+            font-size: vw(44.575);
+            font-family: 'InterBLACK';
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-bottom: vw(18.573);
+        }
+
+        &__info{
+            color: var(--text-white);
+            font-size: vw(12.63);
+            font-family: 'InterSBOLD';
+            opacity: .5;
+            font-weight: 600;
+        }
+
+        &__img{
+            width: vw(128);
+            height: vw(43);
+        }
+    }
+
+    &__text p{
+        margin-top: vw(-8);
+    }
+}
+.info_bar{
+    display: flex;
+    width: vw(275.545);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: vw(25);
+    margin-left: vw(40);
+    margin-top: vw(39.43);
+
+    &__header{
+        display: flex;
+        align-items: center;
+        gap: vw(20);
+        align-self: stretch;
+
+        p{
+            color: #FFF;
+            text-align: center;
+            text-shadow: 0 vw(6.656) vw(4.632) #000;
+            font-family: 'InterBLACK';
+            font-size: vw(40);
+            font-style: italic;
+        }
+        img{
+            width: vw(65);
+            height: vw(39);
+        }
+    }
+    &__center{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: vw(20);
+        align-self: stretch;
+
+        .cards{
+            width: vw(276);
+            height: vw(38);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: vw(11.251);
+            align-self: stretch;
+
+            &__title{
+                font-family: 'InterEBOLD';
+                font-size: vw(12.982);
+                text-transform: uppercase;
+            }
+            &__info{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: vw(10.738);
+
+                p{
+                    font-family: 'InterEBOLD';
+                    font-size: vw(18.255);
+                    line-height: normal;
+                    font-style: normal;
+                }
+
+                .blocks{
+                    display: flex;
+                    align-items: center;
+                    gap: vw(3.074);
+
+                    .block{
+                        width: vw(10.738);
+                        height: vw(13.96);
+                        transform: rotate(15deg);
+                        border-radius: vw(3.222);
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+.exit{
+    margin-top: vw(-40);
+    margin-left: auto;
+    display: flex;
+    width: vw(47);
+    height: vw(47);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: vw(10);
+    background: #FF543E;
+    box-shadow: vw(-7) vw(7) 0 0 rgba(255, 84, 62, 0.24);
+}
+.exit img{
+    width: vw(41);
+    height: vw(41);
+}
+.categories{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: vw(1376);
+    height: vw(47);
+    gap: vw(25);
+    position: fixed;
+    top: vw(52);
+    left: vw(392);
+
+    &__card{
+        display: flex;
+        width: vw(157);
+        height: vw(47);
+        justify-content: center;
+        align-items: center;
+        font-family: 'InterBLACK';
+        font-size: vw(15);
+        background: #1E2125;
+        box-shadow: vw(-7) vw(7) 0 0 rgba(30, 33, 37, 0.24);
+        color: rgba(255, 255, 255, 0.25);
+        text-transform: uppercase;
+
+        &__active{
+            background: var(--main-color);
+            box-shadow: vw(-7) vw(7) 0 0 rgba(36, 150, 240, 0.24);
+            color: white;
+        }
+    }
+
+    &_arrow{
+        display: inline-flex;
+        width: vw(38);
+        height: vw(28);
+        justify-content: center;
+        align-items: center;
+        border-radius: vw(7);
+        background: rgba(36, 150, 240, 0.15);
+    }
+}
+
+.color_total{
+    display: inline-flex;
+    align-items: flex-end;
+    gap: vw(244);
+    margin-left: vw(767);
+    margin-top: vw(33.06);
+}
+
+.color_bar{
+    display: inline-flex;
+    align-items: center;
+    gap: vw(12.17);
+
+    .color_card{
+        display: flex;
+        padding: vw(6.085);
+        align-items: flex-start;
+        background: #1E2125;
+
+        .colors{
+            width: vw(25.557);
+            height: vw(25.557);
+            box-shadow: 0 vw(4.868) vw(4.868) 0 rgba(0, 0, 0, 0.25);
+        }
+
+        &__active{
+            border: vw(3) solid var(--main-color);
+        }
+    }
+}
+
+.total {
+    display: flex;
+    width: vw(499);
+    flex-direction: column;
+    align-items: flex-end;
+    gap: vw(33);
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: vw(8);
+        align-self: stretch;
+
+        &__head{
+            display: flex;
+            align-items: center;
+            gap: vw(10);
+
+            p{
+                color: var(--text-white);
+                text-align: right;
+                font-family: 'InterBLACK';
+                font-size: vw(17);
+                text-transform: uppercase;
+            }
+        }
+        &__p{
+            color: var(--secondary-color);
+            text-align: right;
+            font-family: 'InterBLACK';
+            font-size: vw(35);
+            text-transform: uppercase;
+        }
+    }
+
+    &__buttons{
+        display: flex;
+        align-items: flex-start;
+        gap: vw(15);
+
+        button{
+            display: flex;
+            width: vw(157);
+            height: vw(47);
+            justify-content: center;
+            align-items: center;
+            gap: vw(10);
+            font-family: 'InterBLACK';
+            font-size: vw(15);
+            text-transform: uppercase;
+        }
+
+        &__drive{
+            background: #FDBE22;
+            box-shadow: vw(-7) vw(7) 0 0 rgba(253, 190, 34, 0.24);
+            color: #1E2125;
+        }
+        
+        &__card, &__cash{
+            background: var(--main-color);
+            box-shadow: vw(-7) vw(7) 0 0 rgba(36, 150, 240, 0.24);
+            color: var(--text-white);
+        }
+
+        &__card img{
+            width: vw(24);
+            height: vw(24);
+        }
+        &__cash img{
+            width: vw(12);
+            height: vw(21);
+        }
+    }
+}
+
+.car{
+    display: flex;
+    width: vw(1937);
+    padding: vw(10) vw(15);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: vw(10);
+    margin-top: vw(39);
+    margin-left: vw(-14);
+
+    &__card{
+        display: flex;
+        align-items: center;
+        gap: vw(15);
+        align-self: stretch;
+
+        .card{
+            display: flex;
+            width: vw(261);
+            height: vw(168);
+            flex-direction: column;
+            align-items: flex-start;
+            gap: vw(9);
+
+            &__image{
+                width: vw(261);
+                height: vw(132);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image: linear-gradient(0deg, rgba(#16181C, .7), rgba(#16181C, .9)), url('/car/BACKGROUND.svg');
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                img{
+                    width: vw(261);
+                    height: vw(97);
+                }
+            }
+
+            .info{
+                display: flex;
+                width: vw(261);
+                height: vw(27);
+                padding: vw(10);
+                justify-content: space-between;
+                align-items: center;
+                background: #1E2125;
+
+                &__name, &__price{
+                    text-align: center;
+                    text-shadow: 0 vw(3) vw(1) #000;
+                    font-family: 'InterBLACK';
+                    font-size: vw(17.606);
+                    font-style: italic;
+                    text-transform: uppercase;
+                }
+                &__name{
+                    color: var(--text-white);
+                }
+                &__price{
+                    color: var(--secondary-color);
+                }
+                &__active{
+                    background: var(--main-color);
+                }
+                &__active_p{
+                    color: var(--text-white);
+                }
+            }
+        }
+    }
+
+    &__button{
+        display: flex;
+        align-items: flex-start;
+        gap: vw(10);
+        align-self: stretch;
+        margin-left: vw(10);
+        margin-top: vw(10);
+
+        &__press{
+            display: flex;
+            width: vw(950);
+            height: vw(28);
+            padding: vw(6.12);
+            justify-content: center;
+            align-items: center;
+            gap: vw(12.24);
+            border-radius: vw(7);
+            background: rgba(36, 150, 240, 0.15);
+            color: var(--main-color);
+            text-align: center;
+            font-family: 'InterBLACK';
+            font-size: vw(15);
+            font-style: italic;
+            text-transform: uppercase;
+        }
+    }
+}

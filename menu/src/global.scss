@@ -1,0 +1,50 @@
+@use './fonts.scss';
+
+
+$thin: 'Montserrat_Thin', sans-serif;
+$extralight: 'Montserrat_ExtraLight', sans-serif;
+$light: 'Montserrat_Light', sans-serif;
+$regular: 'Montserrat_Regular', sans-serif;
+$medium: 'Montserrat_Medium', sans-serif;
+$semibold: 'Montserrat_SemiBold', sans-serif;
+$bold: 'Montserrat_Bold', sans-serif;
+$extrabold: 'Montserrat_ExtraBold', sans-serif;
+$black: 'Montserrat_Black', sans-serif;
+$main-background: rgba(24, 24, 23, 0.98);
+$main-color: #DF005B;
+$main-shadow: 0px 0px 71.8px 0px rgba(223, 0, 91, 0.36);
+$main-gradient: radial-gradient(50% 50% at 50% 50%, #DF005B 0%, rgba(223, 0, 91, 0.80) 100%);
+$button-on: 1px solid #DF005B;
+$button-off: 1px solid #393939;
+$button-off-gradient: radial-gradient(50% 50% at 50% 50%, rgba(57, 57, 57, 0.40) 0%, rgba(57, 57, 57, 0.24) 52.5%, rgba(57, 57, 57, 0.10) 100%);
+$car-button: linear-gradient(114deg, rgba(217, 217, 217, 0.07) 19.15%, rgba(115, 115, 115, 0.07) 80.85%);
+$main-color-txt: #FFFFFF;
+$color-txt: rgba(255, 255, 255, 0.52);
+$top-one: linear-gradient(90deg, rgba(255, 187, 0, 0.20) 0%, rgba(255, 187, 0, 0.00) 100%), radial-gradient(67.69% 67.69% at 50% 50%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+$top-two: linear-gradient(90deg, rgba(180, 180, 180, 0.20) 0%, rgba(180, 180, 180, 0.00) 100%), radial-gradient(67.69% 67.69% at 50% 50%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+$top-three: linear-gradient(90deg, rgba(209, 106, 2, 0.20) 0%, rgba(209, 106, 2, 0.00) 100%), radial-gradient(67.69% 67.69% at 50% 50%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+
+.ScrollContent {
+    flex-grow: 1;
+    height: 37.03vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-right: 1vw;
+    
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.90) rgba(255, 255, 255, 0.10);
+}
+.ScrollContent::-webkit-scrollbar {
+    width: 0.05vw;
+}
+.ScrollContent::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.10);
+    margin-top: 0.52vw !important;
+    margin-bottom: 0.52vw;
+    border-radius: 0.52vw;
+}
+.ScrollContent::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.90);
+    border-radius: 0.52vw !important;
+    -webkit-appearance: none;
+}
